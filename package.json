@@ -1,0 +1,20 @@
+{
+  "name": "flareact-project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A template for kickstarting a Flareact project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "flareact dev",
+    "build": "flareact build",
+    "deploy": "flareact publish"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "flareact": "^1.2.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-qr-svg": "^2.4.0"
+  }
+}
